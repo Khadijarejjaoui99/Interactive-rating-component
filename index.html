@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Interactive rating component</title>
+  </head>
+  <body>
+    <main>
+      <section id="firstSection">
+        <div class="starContainer">
+          <img src="images/icon-star.svg" alt="icon-star" />
+        </div>
+        <h1>How did we do?</h1>
+        <p>
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+        <div class="btnContainer">
+          <button class="btn" id="btn1" onClick="clickedBtn(this.id)">1</button>
+          <button class="btn" id="btn2" onClick="clickedBtn(this.id)">2</button>
+          <button class="btn" id="btn3" onClick="clickedBtn(this.id)">3</button>
+          <button class="btn" id="btn4" onClick="clickedBtn(this.id)">4</button>
+          <button class="btn" id="btn5" onClick="clickedBtn(this.id)">5</button>
+        </div>
+        <button type="submit" id="submit">Submit</button>
+      </section>
+      <section id="secondSection">
+        <div class="InfoContainer">
+          <div class="illustrationContainer">
+            <img
+              src="images/illustration-thank-you.svg"
+              alt="thank you illustration "
+            />
+          </div>
+
+          <p id="ratingInfo"></p>
+          <h1>Thank you!</h1>
+          <p>
+            We appreciate you taking the time to give a rating. If you ever need
+            more support, don’t hesitate to get in touch!
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
