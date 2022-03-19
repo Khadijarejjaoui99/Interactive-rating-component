@@ -78,7 +78,14 @@ main {
   color: hsl(0, 0%, 100%);
   background-color: hsl(25, 97%, 53%);
   cursor: pointer;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
+}
+
+button[disabled] {
+  background-color: hsla(25, 97%, 53%, 0.5) !important;
+  color: hsl(0, 0%, 100%) !important;
+  cursor: not-allowed !important;
+  font-weight: 400 !important;
 }
 #submit:hover {
   color: hsl(25, 97%, 53%);
