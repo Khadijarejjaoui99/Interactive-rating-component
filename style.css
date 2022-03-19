@@ -78,10 +78,13 @@ main {
   color: hsl(0, 0%, 100%);
   background-color: hsl(25, 97%, 53%);
   cursor: pointer;
+  letter-spacing: 2px;
 }
 #submit:hover {
   color: hsl(25, 97%, 53%);
   background-color: hsl(0, 0%, 100%);
+  transition: 0.3s;
+  font-weight: 700;
 }
 #secondSection {
   display: none;
